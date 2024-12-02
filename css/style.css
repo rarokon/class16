@@ -1,0 +1,137 @@
+
+/*=============================================
+=            Full page's default css design            =
+=============================================*/
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: gainsboro;
+}
+
+/*=====  End of Full page's default css design  ======*/
+
+/*=============================================
+=            main container div's css design (parent)            =
+=============================================*/
+.main-container{
+    width: 50%;
+    margin: auto;
+}
+
+/*=====  End of main container div's css design (parent)  ======*/
+
+/*=============================================
+=            parent div for all the box's            =
+=============================================*/
+
+.box-sizing{
+    width: 25%;    
+    margin: 20px auto 20px auto;
+}
+
+/*=====  End of parent div for all the box's  ======*/
+
+/*=============================================
+=            paragraph tile css design            =
+=============================================*/
+
+.p-title{
+    padding-left: 10px;
+    margin-top: 20px;
+    background-color: cornflowerblue;
+    border: 2px solid darkblue;
+
+}
+
+/*=====  End of paragraph tile css design            =======*/
+
+/*=============================================
+=            box only height width example css            =
+=============================================*/
+#height-width{
+    margin-top: inherit;
+    width: 200px;
+    padding: 20px;
+    border: 10px solid maroon;
+    background-color: beige;
+    box-sizing: border-box;
+    height: 200px;
+    color: blueviolet;    
+}
+
+/*=====  End of height width example css  ======*/
+
+/*=============================================
+=            box's with overflow auto style css design            =
+=============================================*/
+
+#Box-sizing-auto{
+    margin-top: 20px;
+    width: 200px;
+    padding: 20px;
+    border: 10px solid maroon;
+    background-color: beige;
+    box-sizing: border-box;
+    height: 200px;
+    color: darkslategrey;
+    overflow: auto;
+}
+
+/*=====  End of box's with overflow auto style css design  ======*/
+
+/*=============================================
+=            box's with overflow scroll style css design            =
+=============================================*/
+
+#Box-sizing-scroll{
+    margin-top: 20px;
+    width: 200px;
+    padding: 20px;
+    border: 10px solid maroon;
+    background-color: beige;
+    box-sizing: border-box;
+    height: 200px;
+    color: darkslategrey;
+    overflow: scroll;
+}
+
+/*=====  End of box's with overflow scroll style css design  ======*/
+
+/*=============================================
+=            box's with overflow hidden style css design            =
+=============================================*/
+
+#Box-sizing-hidden{
+    margin-top: 20px;
+    width: 200px;
+    padding: 20px;
+    border: 10px solid maroon;
+    background-color: beige;
+    box-sizing: border-box;
+    height: 200px;
+    color: darkslategrey;
+    overflow: hidden;
+}
+
+/*=====  End of box's with overflow hidden style css design  ======*/
+
+/*=============================================
+=            box's with overflow visible style css design            =
+=============================================*/
+
+#Box-sizing-visible{
+    margin-top: 20px;
+    width: 200px;
+    padding: 20px;
+    border: 10px solid maroon;
+    background-color: beige;
+    box-sizing: border-box;
+    height: 200px;
+    color: darkslategrey;
+    overflow: visible;
+}
+
+/*=====  End of box's with overflow visible style css design  ======*/
+
